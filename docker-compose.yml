@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  deployment:
+    build: .
+    env_file: ./aws_secrets.env
+    command: ./deploy.sh
+    volumes:
+      - .:/app:cached

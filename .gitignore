@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+# AWS credentials
+/aws_secrets.env
