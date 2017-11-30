@@ -1,0 +1,31 @@
+---
+---
+
+@import "minima";
+
+body {
+  font-family: 游ゴシック, YuGothic, メイリオ, Meiryo, Helvetica, Arial, sans-serif;
+}
+
+.post-content {
+  h1 {
+    @include relative-font-size(2);
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h2 {
+    @include relative-font-size(1.625);
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
