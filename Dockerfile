@@ -1,4 +1,4 @@
-FROM ruby:2.4.2-alpine
+FROM ruby:2.5.3-alpine
 
 RUN apk add --no-cache python3
 

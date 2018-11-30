@@ -8,4 +8,5 @@
 ## Command
 
 `JEKYLL_ENV=production bundle exec jekyll build`
+
 `docker-compose run --rm deployment`
